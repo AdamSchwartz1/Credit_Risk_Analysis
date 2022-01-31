@@ -30,6 +30,7 @@ Below are the results for each model.
 ### Cluster Centroids Undersampling
 
 ### SMOTEENN Combo Sampling
+<img width="668" alt="SMOTEENN_combo" src="https://user-images.githubusercontent.com/90946252/151726112-612a68fe-9867-47b7-89bd-bcc153949164.png">
 
 ### Balanced Random Forest Classifier
 <img width="667" alt="random_forest" src="https://user-images.githubusercontent.com/90946252/151726022-d8395df5-df89-4ae7-b16c-5096c81b2678.png">
