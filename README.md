@@ -28,6 +28,7 @@ Below are the results for each model.
 <img width="671" alt="SMOTE_oversampling" src="https://user-images.githubusercontent.com/90946252/151726079-10139e7a-8698-4b68-b289-7d75f78b12f4.png">
 
 ### Cluster Centroids Undersampling
+<img width="660" alt="cluster_centroid" src="https://user-images.githubusercontent.com/90946252/151726145-296b3411-1052-4902-9f02-8b2028eb3d32.png">
 
 ### SMOTEENN Combo Sampling
 <img width="668" alt="SMOTEENN_combo" src="https://user-images.githubusercontent.com/90946252/151726112-612a68fe-9867-47b7-89bd-bcc153949164.png">
