@@ -31,8 +31,10 @@ Below are the results for each model.
 ### SMOTEENN Combo Sampling
 
 ### Balanced Random Forest Classifier
+<img width="667" alt="random_forest" src="https://user-images.githubusercontent.com/90946252/151726022-d8395df5-df89-4ae7-b16c-5096c81b2678.png">
 
 ### Easy Ensemble Classifier
+<img width="666" alt="easy_ensemble" src="https://user-images.githubusercontent.com/90946252/151726037-1f142911-7133-4be5-8a26-69446c1b7751.png">
 
 ## Summary
 Recall is most important because We want to limit false negatives which states it's predicted low risk, but is actually high risk. Precision isn't as important because if you have a false positive (predicted high risk but is actually low rise), you can run more tests to determine that it isn't. 
