@@ -25,6 +25,7 @@ Below are the results for each model.
 <img width="668" alt="random_oversample" src="https://user-images.githubusercontent.com/90946252/151725998-e7b3b4d4-cf81-4f50-aefc-9dd4796c5987.png">
 
 ### SMOTE Oversampling
+<img width="671" alt="SMOTE_oversampling" src="https://user-images.githubusercontent.com/90946252/151726079-10139e7a-8698-4b68-b289-7d75f78b12f4.png">
 
 ### Cluster Centroids Undersampling
 
