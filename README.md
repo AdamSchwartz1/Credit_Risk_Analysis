@@ -40,6 +40,8 @@ Below are the results for each model.
 <img width="666" alt="easy_ensemble" src="https://user-images.githubusercontent.com/90946252/151726037-1f142911-7133-4be5-8a26-69446c1b7751.png">
 
 ## Summary
-In this analysis, I processed 4 resampling methods and 2 ensemble methods. The 4 resampling tasks include 2 oversampling, 1 undersampling, and 1 combo technique. Of those tests, none of them performed very well. All 4 ranged from 54% to 64% accuracy with a precision of .01 and none of them had a recall over .70.
+In this analysis, I processed 4 resampling methods and 2 ensemble methods. The 4 resampling tasks include 2 oversampling, 1 undersampling, and 1 combo technique. Of those tests, none of them performed very well. All 4 ranged from 54% to 64% accuracy with a precision of .01 and none of them had a recall over .70. The 2 ensemble methods were the balanced random forest classifier and the easy ensemble classifier. While the random forest classifier was more accurate than the resampling methods at 76%, the precision score was only .03 and the recall was lower than all but one of the resampling techniques.
+
+That leaves the easy ensemble classifier which performed the best and would be the model I would reccommend. It had an accuracy of 93%, a precision of .09, and a recall of .92. To analyze credit risk, it's more important to had a high recall score than a precision score because you want to minimize the false negatives. Since this model had a recall of .92, there were very few loans that were predicted to be low risk, but were actually high risk. That's important because I don't want high risk loans to go undetected and cause issues.
 
 Recall is most important because We want to limit false negatives which states it's predicted low risk, but is actually high risk. Precision isn't as important because if you have a false positive (predicted high risk but is actually low rise), you can run more tests to determine that it isn't. 
