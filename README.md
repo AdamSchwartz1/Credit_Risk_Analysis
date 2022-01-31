@@ -19,7 +19,20 @@ I generated an accuracy score, confusion matrix, and classification report for a
 | Balanced Random Forest Classifier |    76%   |   .62  |    .03    |
 | Easy Ensemble AdaBoost Classifier |    93%   |   .92  |    .09    |
 
+Below are the results for each model.
 
+### Random Oversampling
+<img width="668" alt="random_oversample" src="https://user-images.githubusercontent.com/90946252/151725998-e7b3b4d4-cf81-4f50-aefc-9dd4796c5987.png">
+
+### SMOTE Oversampling
+
+### Cluster Centroids Undersampling
+
+### SMOTEENN Combo Sampling
+
+### Balanced Random Forest Classifier
+
+### Easy Ensemble Classifier
 
 ## Summary
 Recall is most important because We want to limit false negatives which states it's predicted low risk, but is actually high risk. Precision isn't as important because if you have a false positive (predicted high risk but is actually low rise), you can run more tests to determine that it isn't. 
